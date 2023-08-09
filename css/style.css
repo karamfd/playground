@@ -26,7 +26,6 @@ textarea {
   border: 1px solid black;
   block-size: 6rem;
   inline-size: 20rem;
-  overflow-y: hidden;
   resize: both;
 }
 
