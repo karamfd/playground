@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-main {
+header {
   display: flex;
   align-items: center;
   gap: 2rem;

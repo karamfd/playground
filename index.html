@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="css/prism-live.css">
   </head>
   <body>
-    <main>
+    <header>
       <h1>Playground</h1>
       <button>run</button>
+    </header>
+
+    <main>
+      <details open>
+        <summary>HTML</summary>
+        <textarea id="html" autocomplete="off" class="prism-live language-html"></textarea>
+      </details>
+
+      <details open>
+        <summary>CSS</summary>
+        <textarea id="css" autocomplete="off" class="prism-live language-css"></textarea>
+      </details>
+
+      <details open>
+        <summary>Preview</summary>
+        <iframe sandbox="allow-same-origin"></iframe>
+      </details>
     </main>
-
-    <details open>
-      <summary>HTML</summary>
-      <textarea id="html" autocomplete="off" class="prism-live language-html"></textarea>
-    </details>
-
-    <details open>
-      <summary>CSS</summary>
-      <textarea id="css" autocomplete="off" class="prism-live language-css"></textarea>
-    </details>
-
-    <details open>
-      <summary>Preview</summary>
-      <iframe sandbox="allow-same-origin"></iframe>
-    </details>
 
     <!-- Script -->
     <script src="js/editor.js"></script>
